@@ -22,19 +22,19 @@
                 Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}");
             }
 
-            //Console.WriteLine("What is the radius of your circle?");
-            //var radius = double.Parse(Console.ReadLine());
-            //double area = AreaOfCircle(radius);
+            Console.WriteLine("What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
+            double area = AreaOfCircle(radius);
 
-            //Console.WriteLine($"The area of a circle with radius of {radius} id {area}");
+            Console.WriteLine($"The area of a circle with radius of {radius} id {area}");
 
-            
+
         }
 
 
-        //static double AreaOfCircle(double radius)
-        //{
-        //    return Math.PI * Math.Pow(radius, 2);
-        //}
+        static double AreaOfCircle(double radius)
+        {
+            return Math.PI * Math.Pow(radius, 2);
+        }
     }
 }
